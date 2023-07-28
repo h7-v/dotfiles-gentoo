@@ -109,6 +109,11 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias obsidian="flatpak run md.obsidian.Obsidian --enable-features=UseOzonePlatform --ozone-platform=wayland"
+alias config='/usr/bin/git --git-dir=/home/h7/.cfg/ --work-tree=/home/h7'
+
+# SSH init (note that this is silent so prevents ssh-agent from announcing its
+# pid in the terminal)
+{ eval `ssh-agent`; ssh-add ~/.ssh/ed25519_github; } &>/dev/null
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -116,4 +121,4 @@ alias obsidian="flatpak run md.obsidian.Obsidian --enable-features=UseOzonePlatf
 # flex
 neofetch
 
-alias config='/usr/bin/git --git-dir=/home/h7/.cfg/ --work-tree=/home/h7'
+
