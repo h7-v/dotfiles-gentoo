@@ -1,0 +1,19 @@
+Top of the list is earliest config. The further down, the more recent the config.
+
+First config
+6.1.38-gentoo-x86_64.config
+
+Stable slim config
+6.1.41-gentoo-x86_64-custom.config
+
+Stable slim config with USB4/Thunderbolt support (Mac drivers included)
+6.1.41-gentoo-x86_64-thunderbolt.config
+
+Stable slim config with USB4/Thunderbolt support (Mac drivers included)
+6.1.41-gentoo-x86_64.config
+
+Not changing any settings from the above from here other than changes
+between configs as new kernels are released
+6.1.46-gentoo-x86_64.config
+
+6.1.53-gentoo-x86_64.config

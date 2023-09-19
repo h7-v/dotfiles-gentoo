@@ -118,7 +118,8 @@ alias config='/usr/bin/git --git-dir=/home/h7/.cfg/ --work-tree=/home/h7'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Making default fzf behaviour search for an exact match of what is entered
+alias fzf="fzf -e"
+
 # flex
 neofetch
-
-
